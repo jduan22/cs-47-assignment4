@@ -9,7 +9,7 @@ import Track from "./Track";
 const SpotifyAuthButton = ({authFunction}) => {
   console.log(authFunction)
   return (<Pressable onPress={authFunction} style={styles.button}>
-  {<Image source={require("/Users/jenny/Downloads/CS47/assignment-3-spotify-starter-main/assets/spotify-logo.png")} style={styles.image}/>}
+  {<Image source={require("/Users/jenny/Downloads/CS47/assignment-4-spotify/assets/spotify-logo.png")} style={styles.image}/>}
   <Text style={styles.text}>CONNECT WITH SPOTIFY</Text>
   </Pressable>)
 };
